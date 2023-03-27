@@ -1,7 +1,5 @@
 import styled from 'styled-components';
 
-
-
 const Login = (props) => {
     return (
         <Container>
@@ -15,7 +13,7 @@ const Login = (props) => {
                     
                 </div>
             </Nav>
-            <Section></Section>
+            <Section>section</Section>
         </Container>
     )
 };
@@ -73,5 +71,13 @@ background-color: rgba(0, 0, 0, 0);
     color: #0a66c2;
     text-decoration: none;
 }
+`;
+const Section = styled.section`
+display: flex;
+align-content: start;
+min-height: 700px;
+padding-bottom: 138px;
+padding-top: 40px;
+
 `
 export default Login;
